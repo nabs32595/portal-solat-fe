@@ -35,7 +35,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/dotenv'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -43,8 +44,25 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/dayjs'
+    // '@nuxtjs/firebase'
   ],
+
+  // firebase: {
+  //   config: {
+  //     apiKey: '<apiKey>',
+  //     authDomain: '<authDomain>',
+  //     projectId: '<projectId>',
+  //     storageBucket: '<storageBucket>',
+  //     messagingSenderId: '<messagingSenderId>',
+  //     appId: '<appId>',
+  //     measurementId: '<measurementId>'
+  //   },
+  //   services: {
+  //     auth: true // Just as example. Can be any other service.
+  //   }
+  // },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
